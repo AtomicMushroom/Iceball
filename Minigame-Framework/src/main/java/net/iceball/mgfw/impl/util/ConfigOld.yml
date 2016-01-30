@@ -1,0 +1,208 @@
+package net.iceball.mgfw.impl.util;
+
+import org.bukkit.configuration.InvalidConfigurationException;
+import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.configuration.file.YamlConfiguration;
+import net.iceball.mgfw.impl.MinigameFramework;
+
+import java.io.*;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+import java.util.logging.Level;
+
+/**
+ * A class that handles the configuration file.
+ *
+ * @author iffa
+ * @author Pandarr
+ * @author Sammy
+ * @author kitskub
+ */
+public class Config {
+    /* Variables
+    private static YamlConfiguration arenas_YamlConfig;
+    private static YamlConfiguration config_YamlConfig;
+    private static File arenas_File;
+    private static File config_File;*/
+    private static boolean loaded = false;
+
+    /**
+     * Gets the configuration file.
+     *
+     * @return the arenas_YamlConfig
+     */
+    public static YamlConfiguration getConfig(ConfigFile file) {
+        if (!loaded) {
+            //loadConfig(plugin); //throws NPE when plugin is null
+            loadDefaults();
+
+        }
+        return file.getYamlConfiguration();
+    }
+
+    private static void loadDefaults() {
+
+    }
+
+    public static void loadConfigs(MinigameFramework plugin){
+        loadConfig(plugin, ConfigFile.arenas_yml);
+        loadConfig(plugin, ConfigFile.config_yml);
+        loaded = true;
+    }
+
+    /**
+     * Loads the configuration file from the .jar.
+     */
+    private static void loadConfig(MinigameFramework plugin, ConfigFile config) {
+        config.setFile(new File(plugin.getDataFolder(), config.toString()));
+        if (config.getFile().exists()) {
+            config.setYamlConfiguration(new YamlConfiguration());
+            try {
+                config.getYamlConfiguration().load(config.getFile());
+            } catch (FileNotFoundException ex) {
+                ex.printStackTrace();
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            } catch (InvalidConfigurationException ex) {
+                ex.printStackTrace();
+            }
+            //loaded = true;
+        } else {
+            try {
+                plugin.getDataFolder().mkdir();
+                InputStream jarURL = Config.class.getResourceAsStream("/" + config.toString());
+                copyFile(jarURL, config.getFile());
+                config.setYamlConfiguration(new YamlConfiguration());
+                config.getYamlConfiguration().load(config.getFile());
+                //loaded = true;
+            } catch (Exception e) {
+                // This is not good, I know. At least I didn't wrote this.
+                //copyFile method does this, I cannot help it sorry.
+            }
+        }
+    }
+
+    public static void saveConfigs() {
+        saveConfig(ConfigFile.arenas_yml);
+        saveConfig(ConfigFile.config_yml);
+    }
+    public static void saveConfig(ConfigFile file) {
+        if (file.getYamlConfiguration() == null || file.getFile()== null) {
+            return;
+        }
+        try {
+            file.getYamlConfiguration().save(file.getFile());
+        } catch (IOException ex) {
+            MinigameFramework.logger.log(Level.SEVERE, "Could not serialize yamlConfiguration to " + file.getFile(), ex);
+        }
+    }
+
+    /**
+     * Copies a file to a new location.
+     *
+     * @param in InputStream
+     * @param out File
+     *
+     * @throws Exception
+     */
+    static private void copyFile(InputStream in, File out) throws Exception {
+        InputStream fis = in;
+        FileOutputStream fos = new FileOutputStream(out);
+        try {
+            byte[] buf = new byte[1024];
+            int i = 0;
+            while ((i = fis.read(buf)) != -1) {
+                fos.write(buf, 0, i);
+            }
+        } catch (Exception e) {
+            throw e;
+        } finally {
+            if (fis != null) {
+                fis.close();
+            }
+            if (fos != null) {
+                fos.close();
+            }
+        }
+    }
+    /**
+     * Constructor of SpaceConfig.
+     */
+    private Config() {
+    }
+    //http://stackoverflow.com/questions/23860122/bukkit-configurationsection-getkeys
+
+    static class Util {
+
+        /**
+         * Get a list of arena names.
+         *
+         * @return List names of arena.
+         */
+        public static Set<String> arenasList() {
+            Set<String> arenas = new HashSet<>();
+            FileConfiguration config = YamlConfiguration.loadConfiguration(ConfigFile.arenas_yml.getFile());
+            if (!config.isConfigurationSection("arenas")) {
+                return arenas;
+            }
+            for (String key : config.getConfigurationSection("arenas").getKeys(false)) {
+                arenas.add(key);
+            }
+            return arenas;
+        }
+
+        /**
+         * @param name Name of arena
+         * @return 0, or the highest number block of the arena.
+         */
+        public static int getHighestBlock(String name) {
+            Set<String> block = new HashSet<>();
+            FileConfiguration config = YamlConfiguration.loadConfiguration(ConfigFile.arenas_yml.getFile());
+            if (config.getString("arenas." + name + "blocks.B1") == null) {
+                return 0;
+            }
+            for (String key : config.getConfigurationSection("arenas." + name + ".blocks").getKeys(false)) {
+                block.add(key);
+            }
+            return block.size();
+        }
+
+        /**
+         * @param name Name of arena
+         * @return Set of Teamnames or a empty set, when the path is null.
+         */
+        public static Set<String> getTeamNames(String name) {
+            Set<String> teamnames = new HashSet<>();
+            String path = "arenas." + name + ".teams"; //arenas.castle.teams
+            FileConfiguration config = YamlConfiguration.loadConfiguration(ConfigFile.arenas_yml.getFile());
+            if (!config.isConfigurationSection(path)) {
+                return teamnames;
+            }
+            for (String key : config.getConfigurationSection(path).getKeys(false)) {
+                teamnames.add(key);
+            }
+            return teamnames;
+        }
+
+        /**
+         * Gets Map Information of Team Instanec from yamlConfiguration
+         *
+         * @param arena     Name of Arena
+         * @param team_name Name of Team
+         * @return Map<String,Object> map info about team
+         */
+        public static Map<String, Object> getTeam(String arena, String team_name) {
+            String path = "arenas." + arena + ".teams." + team_name;
+            FileConfiguration config = YamlConfiguration.loadConfiguration(ConfigFile.arenas_yml.getFile());
+            return config.getConfigurationSection(path).getValues(true);
+        }
+
+        public static void deleteArena(String name) {
+            if (ConfigFile.arenas_yml.getYamlConfiguration().isSet("arenas." + name)) {
+                ConfigFile.arenas_yml.getYamlConfiguration().set("arenas." + name, null);
+                saveConfigs();
+            }
+        }
+    }
+}

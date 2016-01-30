@@ -1,0 +1,19 @@
+#    ___                 _               _   _  #
+#   |_ _|   ___    ___  | |__     __ _  | | | | #
+#    | |   / __|  / _ \ | '_ \   / _` | | | | | #
+#    | |  | (__  |  __/ | |_) | | (_| | | | | | #
+#   |___|  \___|  \___| |_.__/   \__,_| |_| |_| #
+#
+# This plugin is made by Thradrys. - Owner of The Iceball Network.#
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#
+# What is the name of the server defined in the BungeeCord config?
+#
+# Note: Giving an incorrect servername leads to players getting
+# teleported to a wrong server or not getting teleported to a server at all!
+#
+servername:
+#
+# Those lovely signs you can click on to join a game. Set gamesigns to "true" to enable.
+#
+gamesigns: false

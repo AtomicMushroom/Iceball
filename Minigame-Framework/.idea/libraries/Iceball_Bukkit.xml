@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Iceball-Bukkit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Iceball-Bukkit/Iceball-Bukkit.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

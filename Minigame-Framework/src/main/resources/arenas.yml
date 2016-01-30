@@ -1,0 +1,12 @@
+#    ___                 _               _   _  #
+#   |_ _|   ___    ___  | |__     __ _  | | | | #
+#    | |   / __|  / _ \ | '_ \   / _` | | | | | #
+#    | |  | (__  |  __/ | |_) | | (_| | | | | | #
+#   |___|  \___|  \___| |_.__/   \__,_| |_| |_| #
+#
+# This plugin is made by Thradrys. - Owner of The Iceball Network.#
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#
+# Always make sure to have a backup before changing anything in the config.
+# When an arena cannot be loaded it will be automaticcaly be deleted.
+arenas:

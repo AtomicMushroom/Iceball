@@ -1,0 +1,53 @@
+#    ___                 _               _   _  #
+#   |_ _|   ___    ___  | |__     __ _  | | | | #
+#    | |   / __|  / _ \ | '_ \   / _` | | | | | #
+#    | |  | (__  |  __/ | |_) | | (_| | | | | | #
+#   |___|  \___|  \___| |_.__/   \__,_| |_| |_| #
+#
+# This plugin is made by Thradrys. - Owner of The Iceball Network.#
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+name: MG-Framework
+main: net.iceball.mgfw.impl.MinigameFramework
+version: 0.9
+depend: [Iceball]
+commands:
+   mg:
+      description: MinigameAPI setup commands.
+      usage: §c/<command> help §4for more help.
+      permission: mg.mgcommand
+      permission-message: §cYou don't have <permission>!
+   atp:
+      description: Teleport to arenas!
+      usage: §c/<command> <arena> [lobby]
+      permission: mg.atpcommand
+      permission-message: §cYou don't have <permission>!
+permissions:
+   mg.*:
+     description: Gives all permissions the MG-Framework has!
+     default: op
+     children:
+       mg.spectate: true
+       mg.newgame: true
+       mg.gamesigns: true
+
+   mg.donate:
+     description: Gives all donator permissions the MG-Framework has!
+     default: op
+     children:
+       mg.spectate: true
+       mg.newgame: true
+
+   mg.gamesigns:
+        description: Allows to you place GameSigns.
+        default: op
+   mg.newgame:
+           description: Allows to you start a new game on a GameSign.
+           default: op
+   mg.spectate:
+           description: Allows to you spectate games. Join servers having [FULL]-signs.
+           default: op
+
+   ## Optional Permissions
+   mg.invisible:
+     description: Allows us to keep you invisible.
+     default: false
