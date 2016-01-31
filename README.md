@@ -1,4 +1,4 @@
-# The Iceball repository 
+# The Iceball repository:
 ![alt text][logo]
 [logo]: https://github.com/AtomicMushroom/Iceball/server-icon.png "The Iceball Serverlogo"
 The official repository is at: https://github.com/AtomicMushroom/Iceball/
@@ -6,8 +6,23 @@ The official repository is at: https://github.com/AtomicMushroom/Iceball/
 We use IntelliJ IDEA 15 for development.
 We recommended you to download Git before you continue. 
 
-Soo, what is Iceball?
-Iceball is minecraft-server created by me AtomicMushroom (or Thradrys).
+### Soo, what is Iceball?
 
-Better question, what is the Iceball respo
+Iceball is minecraft-server created by me: AtomicMushroom or Thradrys (IGN).
+
+### Better question, what is the Iceball repository? 
+
+Basically, three very essentials plugins that are required to make you're own minigames on your own server!
+
+## Why open-source?
+
+Well, first off I had everything kept private, but the project was getting bigger and bigger, and is right now very hard
+to maintain on your own.
+
+## Will I get support if I use your plugins?
+
+Feel free to ask me questions, but keep in mind, I'm not always here. It's simple, just don't always count on me.
+
+ItSo, this is the idea 
+
 
