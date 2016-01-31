@@ -10,7 +10,8 @@ FAQ
 ---
 ## So, what is Iceball?
 
-Iceball is minecraft-server created by me: AtomicMushroom or Thradrys (IGN).
+Iceball is an minecraft-server idea created by me: AtomicMushroom or Thradrys (IGN).
+TL;DR: A minigames server.
 
 ## Better question, what is the Iceball repository? 
 
