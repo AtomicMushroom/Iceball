@@ -1,5 +1,6 @@
-# The Iceball repository
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+# The Iceball repository 
+![alt text][logo]
+[logo]: https://github.com/AtomicMushroom/Iceball/server-icon.png "The Iceball Serverlogo"
 The official repository is at: https://github.com/AtomicMushroom/Iceball/
 
 We use IntelliJ IDEA 15 for development.

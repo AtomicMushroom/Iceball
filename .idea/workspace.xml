@@ -2,607 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07211f56-c36c-46dc-b74f-3351a6b9165e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/dataSources.ids" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/Iceball-Bukkit.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/Iceball.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/api/ConnectionProvider.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/api/Database.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/api/DatabaseProvider.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/commands/CoinsCommand.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/commands/CommandManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/commands/IPLookupCommand.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/commands/IsLobbyCommand.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/commands/PCommand$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/commands/PCommand.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/commands/ProfileCommand.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/commands/STPCommand.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/data/Coins.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/data/Profile.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/events/AsyncChatEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/events/EventManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/events/JoinEvent$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/events/JoinEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/events/LeaveEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/events/gui/GUI.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/events/gui/GUIStage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/events/gui/events/ClickEvent$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/events/gui/events/ClickEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/events/gui/events/PlayerDrop.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/events/gui/items/ColorShop/ColorShop.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/events/gui/items/ColorShop/Superwool.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/events/gui/items/PlayerGUI$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/events/gui/items/PlayerGUI.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/events/gui/items/PlayerShop$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/events/gui/items/PlayerShop.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/exceptions/PlayerNotFoundException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/exceptions/RankNotFoundException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/exceptions/TooBigNumberException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/PPacket.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/Permissions.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/Privilege.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/Util.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/group/GData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/group/GroupManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/group/GroupPerms.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/player/PData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/player/PermissionsReader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/player/PlayerManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/player/PlayerPerms.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/scoreboard/IScoreboard.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/scoreboard/Message.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/scoreboard/ScoreboardAPI.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/Config.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/ConfigFile.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/IP.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/JSON/CDL.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/JSON/Cookie.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/JSON/CookieList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/JSON/HTTP.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/JSON/HTTPTokener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/JSON/JSONArray.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/JSON/JSONException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/JSON/JSONML.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/JSON/JSONObject$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/JSON/JSONObject$Null.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/JSON/JSONObject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/JSON/JSONString.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/JSON/JSONStringer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/JSON/JSONTokener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/JSON/JSONWriter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/JSON/Property.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/JSON/XML.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/JSON/XMLTokener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/JavaHttpUrlConnectionReader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/util/PluginMessenger.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/target/Iceball-BungeeCord.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/target/classes/network/iceball_bc/CommandManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/target/classes/network/iceball_bc/EventListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/target/classes/network/iceball_bc/Iceball.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/target/classes/network/iceball_bc/commands/LeaveCommand.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/target/classes/network/iceball_bc/commands/PMCommand$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/target/classes/network/iceball_bc/commands/PMCommand.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/target/classes/network/iceball_bc/commands/PluginCommandListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/target/classes/network/iceball_bc/commands/Target.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/target/classes/network/iceball_bc/database/ConnectionProvider.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/target/classes/network/iceball_bc/database/Data.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/target/classes/network/iceball_bc/database/Database.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/target/classes/network/iceball_bc/database/IP.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/target/classes/network/iceball_bc/util/Config.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/target/MG-Framework.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/MinigameFramework.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/Bridge.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/GameImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/GameManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/api/Bomberman.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/signs/GameSignManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/signs/SignsInformant.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Iceball_Bukkit_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Iceball_BungeeCord_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/MG_Framework_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_8_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ocpsoft_prettytime_prettytime_3_2_7_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_8_8_R0_1_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/artifacts/Iceball_Bukkit_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/libraries/Maven__com_zaxxer_HikariCP_2_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/libraries/Maven__junit_junit_4_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_8_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/libraries/Maven__org_avaje_ebean_2_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/libraries/Maven__org_ocpsoft_prettytime_prettytime_3_2_7_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/libraries/Maven__org_slf4j_slf4j_nop_1_7_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/libraries/Maven__org_spigotmc_spigot_api_1_8_7_R0_1_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/libraries/Maven__org_yaml_snakeyaml_1_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/Bukkit.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/Iceball.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/api/ConnectionProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/api/Database.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/api/DatabaseProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/commands/CoinsCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/commands/CommandManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/commands/IPLookupCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/commands/IsLobbyCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/commands/PCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/commands/ProfileCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/commands/STPCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/data/Coins.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/data/Profile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/events/AsyncChatEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/events/EventManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/events/JoinEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/events/LeaveEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/events/gui/GUI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/events/gui/GUIStage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/events/gui/events/ClickEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/events/gui/events/PlayerDrop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/events/gui/items/ColorShop/ColorShop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/events/gui/items/ColorShop/Superwool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/events/gui/items/PlayerGUI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/events/gui/items/PlayerShop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/exceptions/PlayerNotFoundException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/exceptions/RankNotFoundException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/exceptions/TooBigNumberException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/permissions/PPacket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/permissions/Permissions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/permissions/Privilege.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/permissions/Util.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/permissions/group/GData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/permissions/group/GroupManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/permissions/group/GroupPerms.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/permissions/player/PData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/permissions/player/PermissionsReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/permissions/player/PlayerManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/permissions/player/PlayerPerms.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/scoreboard/IScoreboard.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/scoreboard/Message.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/scoreboard/ScoreboardAPI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/Config.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/ConfigFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/IP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/CDL.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/Cookie.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/CookieList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/HTTP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/HTTPTokener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/JSONArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/JSONException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/JSONML.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/JSONObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/JSONString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/JSONStringer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/JSONTokener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/JSONWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/Property.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/XML.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/XMLTokener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JavaHttpUrlConnectionReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/PluginMessenger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/resources/changelog.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/resources/config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/src/main/resources/plugin.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/changelog.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/classes/plugin.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bukkit/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/.idea/libraries/Maven__com_zaxxer_HikariCP_2_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/.idea/libraries/Maven__io_netty_netty_buffer_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/.idea/libraries/Maven__io_netty_netty_codec_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/.idea/libraries/Maven__io_netty_netty_common_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/.idea/libraries/Maven__io_netty_netty_transport_4_0_23_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/.idea/libraries/Maven__net_md_5_bungeecord_api_1_7_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_7_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/.idea/libraries/Maven__net_md_5_bungeecord_config_1_7_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/.idea/libraries/Maven__net_md_5_bungeecord_event_1_7_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/.idea/libraries/Maven__net_md_5_bungeecord_protocol_1_7_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/.idea/libraries/Maven__net_sf_trove4j_trove4j_3_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/.idea/libraries/Maven__org_slf4j_slf4j_nop_1_7_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/.idea/libraries/Maven__org_yaml_snakeyaml_1_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/BungeeCord.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/src/main/java/network/iceball_bc/CommandManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/src/main/java/network/iceball_bc/EventListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/src/main/java/network/iceball_bc/Iceball.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/src/main/java/network/iceball_bc/commands/LeaveCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/src/main/java/network/iceball_bc/commands/PMCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/src/main/java/network/iceball_bc/commands/PluginCommandListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/src/main/java/network/iceball_bc/database/ConnectionProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/src/main/java/network/iceball_bc/database/Data.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/src/main/java/network/iceball_bc/database/Database.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/src/main/java/network/iceball_bc/database/IP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/src/main/java/network/iceball_bc/util/Config.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BungeeCord/src/main/resources/plugin.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Iceball-BungeeCord/Iceball (1).iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Iceball.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/.idea/libraries/Maven__junit_junit_4_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/.idea/libraries/Maven__org_avaje_ebean_2_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/.idea/libraries/Maven__org_bukkit_craftbukkit_1_8_7_R0_1_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/.idea/libraries/Maven__org_spigotmc_spigot_1_8_7_R0_1_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/.idea/libraries/Maven__org_yaml_snakeyaml_1_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/MG-Framework.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/api/arena/MGTeam.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/api/game/config/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/MinigameFramework.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/game/Bridge.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/game/GameImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/game/GameManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/game/signs/SignsInformant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/util/ConfigOld.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MinigameFramework/Minigame-Framework.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-Bukkit.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/Iceball-BungeeCord.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/out/Iceball-BungeeCord.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/src/main/java/network/iceball/CommandManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/src/main/java/network/iceball/EventListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/src/main/java/network/iceball/Iceball.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/src/main/java/network/iceball/LobbyScoreboard.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/src/main/java/network/iceball/commands/LeaveCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/src/main/java/network/iceball/commands/PMCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/src/main/java/network/iceball/commands/PluginCommandListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/src/main/java/network/iceball/database/ConnectionProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/src/main/java/network/iceball/database/Data.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/src/main/java/network/iceball/database/Database.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/src/main/java/network/iceball/database/IP.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/src/main/java/network/iceball/util/Config.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/src/main/resources/plugin.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/target/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/target/classes/network/iceball/CommandManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/target/classes/network/iceball/EventListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/target/classes/network/iceball/Iceball.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/target/classes/network/iceball/LobbyScoreboard.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/target/classes/network/iceball/commands/LeaveCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/target/classes/network/iceball/commands/PMCommand$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/target/classes/network/iceball/commands/PMCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/target/classes/network/iceball/commands/PluginCommandListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/target/classes/network/iceball/commands/Target.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/target/classes/network/iceball/database/ConnectionProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/target/classes/network/iceball/database/Data.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/target/classes/network/iceball/database/Database.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/target/classes/network/iceball/database/IP.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/target/classes/network/iceball/util/Config.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/target/classes/plugin.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/MG-Framework.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/Minigame-Framework.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/artifacts/MG_Framework_jar/MG-Framework.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/allclasses-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/allclasses-noframe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/constant-values.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/deprecated-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/help-doc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/index-files/index-1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/index-files/index-10.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/index-files/index-11.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/index-files/index-12.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/index-files/index-13.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/index-files/index-14.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/index-files/index-15.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/index-files/index-16.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/index-files/index-17.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/index-files/index-18.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/index-files/index-2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/index-files/index-3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/index-files/index-4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/index-files/index-5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/index-files/index-6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/index-files/index-7.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/index-files/index-8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/index-files/index-9.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/CommandManager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/EventManager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/MinigameAPI.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/Arena.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/ArenaLoader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/ArenaModifier.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/GameStatus.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/exceptions/ArenaAlreadyExistException.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/exceptions/ArenaNullException.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/exceptions/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/exceptions/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/exceptions/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/team/SpawnType.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/team/Team.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/team/TeamModifier.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/team/TeamsModifier.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/team/exceptions/TeamAlreadyExistException.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/team/exceptions/TeamsNotInitiliasedException.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/team/exceptions/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/team/exceptions/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/team/exceptions/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/team/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/team/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/arena/team/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/commands/HelpReference.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/commands/MGComand.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/commands/PlmCommand.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/commands/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/commands/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/commands/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/events/GameJoinEvent.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/events/GameSetupEvent.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/events/bukkit/JoinLeaveEvent.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/events/bukkit/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/events/bukkit/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/events/bukkit/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/events/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/events/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/events/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/game/Game.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/game/GameConfiguration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/game/GameManager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/game/GamePlayer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/game/GameSettings.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/game/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/game/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/game/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/scoreboard/ScoreValue.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/scoreboard/Scoreboard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/scoreboard/ScoreboardManager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/scoreboard/ScoreboardType.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/scoreboard/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/scoreboard/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/scoreboard/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/util/Config.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/util/ObjectInfo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/util/Serialization.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/util/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/util/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/net/iceball/mga/util/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/overview-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/overview-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/overview-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/package-list" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/serialized-form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/javadoc/stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/out/spigot.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/api/arena/MGTeam.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/api/game/config/Display.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/MinigameFramework.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/game/Bridge.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/game/GameImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/game/GameManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/game/signs/SignsInformant.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mga/arena/ArenaLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mga/arena/ArenaModifier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mga/arena/exceptions/ArenaAlreadyExistException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mga/arena/exceptions/ArenaNullException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mga/arena/team/SpawnType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mga/arena/team/Team$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mga/arena/team/Team.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mga/arena/team/TeamsModifier$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mga/arena/team/TeamsModifier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mga/arena/team/exceptions/TeamAlreadyExistException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mga/arena/team/exceptions/TeamsNotInitiliasedException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mga/commands/ATPCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mga/commands/CommandManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/MinigameFramework.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/Bridge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/GameImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/GameManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/api/Bomberman.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/signs/GameSignManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/signs/SignsInformant.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Now_avaiable_on_GitHub_.patch" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/.name" afterPath="$PROJECT_DIR$/BungeeCord/.idea/.name" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/artifacts/Iceball_BungeeCord_jar.xml" afterPath="$PROJECT_DIR$/BungeeCord/.idea/artifacts/Iceball_BungeeCord_jar.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/compiler.xml" afterPath="$PROJECT_DIR$/BungeeCord/.idea/compiler.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/BungeeCord/.idea/copyright/profiles_settings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/BungeeCord/.idea/dataSources.ids" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/BungeeCord/.idea/dataSources.local.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/BungeeCord/.idea/dataSources.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/encodings.xml" afterPath="$PROJECT_DIR$/Bukkit/.idea/encodings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" afterPath="$PROJECT_DIR$/Bukkit/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" afterPath="$PROJECT_DIR$/Bukkit/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/libraries/Maven__com_zaxxer_HikariCP_2_4_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_4_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/libraries/Maven__io_netty_netty_buffer_4_0_23_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_0_23_Final.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/libraries/Maven__io_netty_netty_codec_4_0_23_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_0_23_Final.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/libraries/Maven__io_netty_netty_common_4_0_23_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_0_23_Final.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/libraries/Maven__io_netty_netty_transport_4_0_23_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_0_23_Final.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/libraries/Maven__net_md_5_bungeecord_api_1_7_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_api_1_7_SNAPSHOT.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_7_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_7_SNAPSHOT.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/libraries/Maven__net_md_5_bungeecord_config_1_7_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_config_1_7_SNAPSHOT.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/libraries/Maven__net_md_5_bungeecord_event_1_7_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_event_1_7_SNAPSHOT.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/libraries/Maven__net_md_5_bungeecord_protocol_1_7_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_protocol_1_7_SNAPSHOT.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/libraries/Maven__net_sf_trove4j_trove4j_3_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_trove4j_trove4j_3_0_3.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/libraries/Maven__org_slf4j_slf4j_nop_1_7_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_nop_1_7_12.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/libraries/Maven__org_yaml_snakeyaml_1_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_13.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/misc.xml" afterPath="$PROJECT_DIR$/BungeeCord/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/modules.xml" afterPath="$PROJECT_DIR$/BungeeCord/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/Bukkit/.idea/scopes/scope_settings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/BungeeCord/.idea/sqldialects.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/Bukkit/.idea/uiDesigner.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/.idea/workspace.xml" afterPath="$PROJECT_DIR$/BungeeCord/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/.name" afterPath="$PROJECT_DIR$/MG-Framework/.idea/.name" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/artifacts/MG_Framework_jar.xml" afterPath="$PROJECT_DIR$/MG-Framework/.idea/artifacts/MG_Framework_jar.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/compiler.xml" afterPath="$PROJECT_DIR$/MG-Framework/.idea/compiler.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/Bukkit/.idea/copyright/profiles_settings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/dictionaries/Floris.xml" afterPath="$PROJECT_DIR$/MG-Framework/.idea/dictionaries/Floris.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/encodings.xml" afterPath="$PROJECT_DIR$/MG-Framework/.idea/encodings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/libraries/Iceball_Bukkit.xml" afterPath="$PROJECT_DIR$/MG-Framework/.idea/libraries/Iceball_Bukkit.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/libraries/Maven__junit_junit_4_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_8_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/MG-Framework/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_8_SNAPSHOT.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/libraries/Maven__org_avaje_ebean_2_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_avaje_ebean_2_8_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/libraries/Maven__org_bukkit_craftbukkit_1_8_7_R0_1_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_craftbukkit_1_8_7_R0_1_SNAPSHOT.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/libraries/Maven__org_spigotmc_spigot_1_8_7_R0_1_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_1_8_7_R0_1_SNAPSHOT.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/libraries/Maven__org_spigotmc_spigot_api_1_8_8_R0_1_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/MG-Framework/.idea/libraries/Maven__org_spigotmc_spigot_api_1_8_8_R0_1_SNAPSHOT.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/libraries/Maven__org_yaml_snakeyaml_1_15.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_15.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/misc.xml" afterPath="$PROJECT_DIR$/MG-Framework/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/modules.xml" afterPath="$PROJECT_DIR$/MG-Framework/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/MG-Framework/.idea/sqldialects.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/.idea/workspace.xml" afterPath="$PROJECT_DIR$/MG-Framework/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/api/arena/Arena.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/api/arena/Arena.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/api/arena/SpawnType.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/api/arena/SpawnType.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/api/game/Game.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/api/game/Game.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/api/game/GameLauncher.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/api/game/GameLauncher.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/api/game/GameStatus.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/api/game/GameStatus.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/api/game/MGPlayer.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/api/game/MGPlayer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/api/game/config/Locations.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/api/game/config/Locations.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/api/game/config/MGConfiguration.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/api/game/config/MGConfiguration.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/api/game/config/MGTeamsModifier.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/api/game/config/MGTeamsModifier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/api/game/events/GameEndEvent.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/api/game/events/GameEndEvent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/api/game/events/GameJoinEvent.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/api/game/events/GameJoinEvent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/api/game/events/GameLeaveEvent.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/api/game/events/GameLeaveEvent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/api/game/events/GameSetupEvent.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/api/game/events/GameSetupEvent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/api/game/events/GameStartEvent.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/api/game/events/GameStartEvent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/CommandManager.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/CommandManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/EventManager.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/EventManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/arena/ATPCommand.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/arena/ATPCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/arena/ArenaImpl.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/arena/ArenaImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/arena/ArenaLoader.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/arena/ArenaLoader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/arena/ArenaModifier.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/arena/ArenaModifier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/arena/MGCommand.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/arena/MGCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/arena/TeamImpl.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/arena/TeamImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/arena/TeamModifier.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/arena/TeamModifier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/arena/TeamsModifier.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/arena/TeamsModifier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/arena/exceptions/ArenaAlreadyExistException.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/arena/exceptions/ArenaAlreadyExistException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/arena/exceptions/ArenaNullException.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/arena/exceptions/ArenaNullException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/arena/exceptions/TeamAlreadyExistException.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/arena/exceptions/TeamAlreadyExistException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/arena/exceptions/TeamsNotInitiliasedException.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/arena/exceptions/TeamsNotInitiliasedException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/game/ConfigBuilder.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/game/ConfigBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/game/GameSettings.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/game/GameSettings.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/game/TeamManager.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/game/TeamManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/game/Teleporter.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/game/Teleporter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/game/api/Bomberman.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/game/api/Bomberman.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/game/signs/GameServer.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/game/signs/GameServer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/game/signs/GameSign.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/game/signs/GameSign.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/game/signs/GameSignManager.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/game/signs/GameSignManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/game/signs/MapInfo.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/game/signs/MapInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/game/signs/Status.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/game/signs/Status.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/scoreboard/ScoreboardManager.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/scoreboard/ScoreboardManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/util/BaseCommand.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/util/BaseCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/util/Config.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/util/Config.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/util/ConfigFile.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/util/ConfigFile.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/util/ConfigOld.yml" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/util/ConfigOld.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/util/ObjectInfo.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/util/ObjectInfo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/java/net/iceball/mgfw/impl/util/Serialization.java" afterPath="$PROJECT_DIR$/MG-Framework/src/main/java/net/iceball/mgfw/impl/util/Serialization.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/resources/arenas.yml" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/arenas.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/resources/config.yml" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/config.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/resources/plugin.yml" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/plugin.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/src/main/resources/signs.yml" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/signs.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/MANIFEST.MF" afterPath="$PROJECT_DIR$/BungeeCord/target/MANIFEST.MF" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/arenas.yml" afterPath="$PROJECT_DIR$/MG-Framework/src/main/resources/arenas.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/config.yml" afterPath="$PROJECT_DIR$/MG-Framework/src/main/resources/config.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/api/arena/Arena.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/api/arena/Arena.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/api/arena/MGTeam.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/api/arena/MGTeam.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/api/arena/SpawnType.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/api/arena/SpawnType.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/api/game/Game.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/api/game/Game.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/api/game/GameLauncher.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/api/game/GameLauncher.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/api/game/GameStatus.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/api/game/GameStatus.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/api/game/MGPlayer.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/api/game/MGPlayer.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/api/game/config/Display$DisplayType.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/api/game/config/Display$DisplayType.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/api/game/config/Display$ScoreValue.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/api/game/config/Display$ScoreValue.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/api/game/config/Display.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/api/game/config/Display.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/api/game/config/Locations.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/api/game/config/Locations.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/api/game/config/MGConfiguration.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/api/game/config/MGConfiguration.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/api/game/config/MGTeamsModifier.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/api/game/config/MGTeamsModifier.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/api/game/events/GameEndEvent.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/api/game/events/GameEndEvent.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/api/game/events/GameJoinEvent.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/api/game/events/GameJoinEvent.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/api/game/events/GameLeaveEvent.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/api/game/events/GameLeaveEvent.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/api/game/events/GameSetupEvent.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/api/game/events/GameSetupEvent.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/api/game/events/GameStartEvent.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/api/game/events/GameStartEvent.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/CommandManager.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/CommandManager.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/EventManager.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/EventManager.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/MinigameFramework$1.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/MinigameFramework$1.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/arena/ATPCommand.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/arena/ATPCommand.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/arena/ArenaImpl.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/arena/ArenaImpl.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/arena/ArenaLoader.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/arena/ArenaLoader.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/arena/ArenaModifier.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/arena/ArenaModifier.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/arena/MGCommand$1.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/arena/MGCommand$1.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/arena/MGCommand.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/arena/MGCommand.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/arena/TeamImpl$1.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/arena/TeamImpl$1.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/arena/TeamImpl.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/arena/TeamImpl.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/arena/TeamModifier$1.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/arena/TeamModifier$1.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/arena/TeamModifier.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/arena/TeamModifier.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/arena/TeamsModifier$1.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/arena/TeamsModifier$1.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/arena/TeamsModifier.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/arena/TeamsModifier.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/arena/exceptions/ArenaAlreadyExistException.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/arena/exceptions/ArenaAlreadyExistException.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/arena/exceptions/ArenaNullException.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/arena/exceptions/ArenaNullException.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/arena/exceptions/TeamAlreadyExistException.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/arena/exceptions/TeamAlreadyExistException.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/arena/exceptions/TeamsNotInitiliasedException.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/arena/exceptions/TeamsNotInitiliasedException.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/ConfigBuilder.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/ConfigBuilder.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/GameImpl$1.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/GameImpl$1.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/GameImpl$2.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/GameImpl$2.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/GameManager$1.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/GameManager$1.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/GameSettings.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/GameSettings.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/Interval$1.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/Interval$1.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/Interval.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/Interval.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/TeamIsFullException.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/TeamIsFullException.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/TeamManager.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/TeamManager.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/Teleporter$1.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/Teleporter$1.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/Teleporter.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/Teleporter.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/signs/GameServer.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/signs/GameServer.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/signs/GameSign$1.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/signs/GameSign$1.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/signs/GameSign$2.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/signs/GameSign$2.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/signs/GameSign.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/signs/GameSign.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/signs/GameSignManager$1.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/signs/GameSignManager$1.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/signs/MapInfo.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/signs/MapInfo.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/game/signs/Status.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/game/signs/Status.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/scoreboard/ScoreboardManager.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/scoreboard/ScoreboardManager.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/util/BaseCommand.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/util/BaseCommand.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/util/Config.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/util/Config.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/util/ConfigFile.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/util/ConfigFile.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/util/ObjectInfo.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/util/ObjectInfo.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/net/iceball/mgfw/impl/util/Serialization.class" afterPath="$PROJECT_DIR$/MG-Framework/target/classes/net/iceball/mgfw/impl/util/Serialization.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/plugin.yml" afterPath="$PROJECT_DIR$/MG-Framework/src/main/resources/plugin.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Minigame-Framework/target/classes/signs.yml" afterPath="$PROJECT_DIR$/MG-Framework/src/main/resources/signs.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-icon.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/Iceball (1).iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MinigameFramework/Minigame-Framework.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icon.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bukkit/target/Iceball-Bukkit.jar" afterPath="$PROJECT_DIR$/Bukkit/target/Iceball-Bukkit.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/commands/PCommand.class" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/commands/PCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/PPacket.class" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/PPacket.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/group/GData.class" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/group/GData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/player/PData.class" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/player/PData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BungeeCord/target/Iceball-BungeeCord.jar" afterPath="$PROJECT_DIR$/BungeeCord/target/Iceball-BungeeCord.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BungeeCord/target/classes/network/iceball_bc/util/Config.class" afterPath="$PROJECT_DIR$/BungeeCord/target/classes/network/iceball_bc/util/Config.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MG-Framework/target/MG-Framework.jar" afterPath="$PROJECT_DIR$/MG-Framework/target/MG-Framework.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/HTTP.java" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/HTTP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/JSONStringer.java" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/JSONStringer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/JSONWriter.java" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/JSONWriter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BungeeCord/target/MANIFEST.MF" afterPath="$PROJECT_DIR$/BungeeCord/target/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="Iceball.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -631,13 +48,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Iceball.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BungeeCord/src/main/java/network/iceball_bc/Iceball.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4536862">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.020026702">
+                <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
+          </provider>
+          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -649,7 +72,7 @@
         <option value="AtomicMushroom" />
       </list>
     </option>
-    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -705,6 +128,7 @@
         <option value="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball_bk/permissions/player/PData.java" />
         <option value="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/permissions/player/PData.java" />
         <option value="$PROJECT_DIR$/Bukkit/src/main/resources/plugin.yml" />
+        <option value="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/permissions/PPacket.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -803,49 +227,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Iceball" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bukkit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Iceball" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bukkit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Iceball" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bukkit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files" />
       </pane>
       <pane id="PackagesPane">
         <subPane>
@@ -856,9 +241,6 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
       </pane>
       <pane id="Scratches" />
     </panes>
@@ -886,10 +268,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/MG-Framework" />
-      <recent name="$PROJECT_DIR$/Bukkit" />
-      <recent name="$PROJECT_DIR$/Bukkit/src/main/java" />
       <recent name="$PROJECT_DIR$/Bukkit/src/main/resources" />
+      <recent name="$PROJECT_DIR$/Bukkit" />
+      <recent name="$PROJECT_DIR$/MG-Framework" />
+      <recent name="$PROJECT_DIR$/Bukkit/src/main/java" />
     </key>
   </component>
   <component name="RunManager">
@@ -1383,7 +765,8 @@
       <workItem from="1454243638080" duration="3311000" />
       <workItem from="1454255247149" duration="116000" />
       <workItem from="1454255375890" duration="1336000" />
-      <workItem from="1454258151857" duration="1508000" />
+      <workItem from="1454258151857" duration="2171000" />
+      <workItem from="1454260629422" duration="401000" />
     </task>
     <task id="LOCAL-00001" summary="Now avaiable on GitHub!">
       <created>1454195573248</created>
@@ -1397,40 +780,52 @@
       <option name="project" value="LOCAL" />
       <updated>1454195689463</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Cleanup.">
+      <created>1454259813272</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1454259813272</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fixed a bug that was causing trouble to the permissions core.">
+      <created>1454260343887</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1454260343887</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14702000" />
+    <option name="totallyTimeSpent" value="15766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46626505" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2453505" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1453,7 +848,8 @@
     <MESSAGE value="Now avaiable on GitHub!" />
     <MESSAGE value="Test commits." />
     <MESSAGE value="Cleanup." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanup." />
+    <MESSAGE value="Fixed a bug that was causing trouble to the permissions core." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed a bug that was causing trouble to the permissions core." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1517,13 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/api/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1594,13 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/permissions/PPacket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1773,26 +1155,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.03164557">
-            <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/Iceball.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1801,19 +1163,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/events/AsyncChatEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/events/EventManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1821,16 +1174,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13092269">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BungeeCord/src/main/java/network/iceball_bc/Iceball.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4536862">
+        <state vertical-scroll-proportion="0.29925188">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/events/AsyncChatEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.32793018">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/api/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.53366584">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/permissions/PPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6508728">
+          <caret line="66" column="59" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.020026702">
+            <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
@@ -1840,13 +1240,13 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="javaee-facet-resources" />
               <type id="artifact" />
               <type id="jpa-descriptors" />
               <type id="library" />
+              <type id="javaee-facet-resources" />
             </show-content>
           </artifact-editor>
-          <last-edited>MG-Framework:jar</last-edited>
+          <last-edited>Iceball-Bukkit:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1895,7 +1295,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MG-Framework</last-edited>
+          <last-edited>Bukkit</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
