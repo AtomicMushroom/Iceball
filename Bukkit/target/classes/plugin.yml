@@ -1,0 +1,104 @@
+#    ___     ___     ___     ___     ___     _       _
+#   |_ _|   / __|   | __|   | _ )   /   \   | |     | |
+#    | |   | (__    | _|    | _ \   | - |   | |__   | |__
+#   |___|   \___|   |___|   |___/   |_|_|   |____|  |____|
+#
+name: Iceball
+main: network.iceball.bukkit.Iceball
+version:  0.7
+author: Thradrys
+commands:
+   coins:
+      description: Command for all coins
+      usage: §c/<command> <target> <add|remove|set> <value>
+      permission: iceball.coins
+      permission-message: §cYou don't have <permission>!
+   profile:
+      description: Shows detailed player profile.
+      usage: §c/<command> <target>
+      permission: iceball.profile
+      permission-message: §cYou don't have <permission>!
+   iplookup:
+      description: Shows the player ip.
+      usage: §c/<command> <target>
+      permission: iceball.iplookup
+      permission-message: §cYou don't have <permission>!
+   p:
+      description: Shows all permissions commands.
+      usage: §c/<command> help §4for more help
+      permission: iceball.p
+      permission-message: §cYou don't have <permission>!
+   stp:
+      description: Teleport to players on other servers!
+      useage: §c/<command> <target>
+      permission: iceball.stp
+      permission-message: §cYou don't have <permission>!
+   islobby:
+      description: Set lobby on or off.
+      useage: §c/<command>
+      permission: iceball.islobby
+      permission-message: §cYou don't have <permission>!
+permissions:
+   iceball.*:
+     description: Gives access to all iceball commands
+     children:
+       iceball.stp: true
+       iceball.test: true
+       iceball.coins.*: true
+       iceball.islobby: true
+       iceball.profile: true
+       iceball.chatcolors: true
+       iceball.chatcolors: true
+       iceball.stp: true
+
+   ## Commands
+   iceball.chatcolors:
+     description: Allows to use chatcolors with '&' char!
+   iceball.profile:
+     description: Allows you to see player profiles
+     default: op
+   iceball.p:
+     description: All Iceball Permissions commands!
+     default: op
+   iceball.stp:
+     description: Allows you to see to teleport through servers
+     default: op
+   iceball.lobby:
+     description:
+     default: false
+   #TODO register enable this note.
+   iceball.invisibly:
+     description:
+     default: false
+
+   ## Coins
+   iceball.coins.*:
+     description: Gives access to all iceball commands
+     children:
+       iceball.coins: true
+       iceball.coins.set: true
+       iceball.coins.add: true
+       iceball.coins.remove: true
+       iceball.coins.seeothers: true
+   iceball.coins:
+     description: Allows the /coins command. See your own balance
+     default: true
+   iceball.coins.set:
+     description: Allows you to set a value of coins for the given player
+     default: op
+   iceball.coins.add:
+     description: Allows you to add a value of coins for the given player
+     default: op
+     children:
+       iceball.coins.set: true
+       iceball.coins.seeothers: true
+   iceball.coins.seeothers:
+     description: Allows you to see the values of coins of other players
+     default: op
+     children:
+       iceball.coins: true
+
+   ## Optional Permissions
+   donate.rankpromote:
+     description: allows us to send a message that you were promoted.
+     default: false

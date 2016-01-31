@@ -1,0 +1,4 @@
+name: Iceball
+main: network.iceball_bc.Iceball
+version: 0.7
+author: Thradrys

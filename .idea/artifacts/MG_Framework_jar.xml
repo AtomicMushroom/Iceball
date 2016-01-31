@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MG-Framework:jar">
+    <output-path>$PROJECT_DIR$/MG-Framework/target</output-path>
+    <root id="archive" name="MG-Framework.jar">
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/guava/guava/17.0/guava-17.0.jar" path-in-jar="/" />
+      <element id="module-output" name="MG-Framework" />
+      <element id="dir-copy" path="$PROJECT_DIR$/MG-Framework/src/main/resources" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,31 @@
+#    ___     ___     ___     ___     ___     _       _
+#   |_ _|   / __|   | __|   | _ )   /   \   | |     | |
+#    | |   | (__    | _|    | _ \   | - |   | |__   | |__
+#   |___|   \___|   |___|   |___/   |_|_|   |____|  |____|
+#
+Iceball:
+  mysql:
+    # Username of mysql user
+    username: minecraft
+
+    # The password of the user cannot contain spaces!
+    password: acoolpassword
+
+    # The ip address of the server.
+    # If the mysql-server is running on the same server as the mc-server, you can set this to localhost.
+    hostname: localhost
+
+    # The port the mysql driver will connect to (default: 3306)
+    port: 3306
+
+    # You do not have to create a database, the plugin itself will do it for you.
+    database: iceball
+
+    # Set it to "true" without the quotes to enable.
+    enabled: false
+
+  # Whether you spawn with a GUI items and have item-pickup disabled or not.
+  Lobby: true
+
+  # Set this to true for the most colorfull chat ever.
+  Lobby-chat: true

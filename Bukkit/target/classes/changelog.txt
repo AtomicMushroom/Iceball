@@ -1,0 +1,73 @@
+## Known Bugs:
+- Disabling GUI doesn't work.
+- Disabling Lobby doesn't either.
+- Shops doesn't work right now.
+- IsLobbyCommand doesn't work properly, because item dropping is still enabled and the GUI also.
+# Must be added features:
+- automatic removal of .log files
+- uploading statistics of player from world to database.
+- automatic removal of uncessary playerdata (located in /World)
+
+###[0.7.1]
+## Bugfixes
+- Fixed a view permissions-bugs.
+## Added
+- Created a bridge between BungeeCord and Bukkit with the Plugin Messsage Channel.
+- Bridge of the Profile command is used to locate the player on all servers and also
+  allows you to simple-click teleport to player.
+## Removed
+- The UUID command, because we already have the ProfileCommand.
+- The PlayerName command, because we already have the ProfileCommand.
+- TestCommand, because we don't need it.
+##
+
+###[0.7]
+## Features added:
+- Whole Permissions system is rewritten, which makes it easier to read and add new things. All Permissions commands are
+fully working.
+- Permissions supports "*" node!
+- The new permissions command: /p
+- New command: "/stp <target>", which stands for server teleport. Allows you to teleport to the player on another server!
+- BungeeCord-Bukkit-bridge, basically Iceball-Bukkit and Iceball-BungeeCord are fully working together.
+- Command: /profile <target> has now a built in option to teleport directly to the player.
+- Color scoreboard support!
+- Basic command reference!
+##
+
+###[0.6.2]
+## Bugfixes:
+- IP logging swapped players ip addresses.
+##
+
+### [0.6.1]
+## Bugfixes [
+- Fixed a bug that was adding permissions to groups with the ' quote in front.
+- Fixed ClickEvent that was throwing NullPointerExceptions.
+##
+
+### [0.6] - 2015-19-10
+## Added
+- Fully working Permissions with built in API
+- All permissions commands
+- Permissions built in chat configuration.
+- isLobby command
+## Changed
+- The profile now always get registered, no errors anymore!
+- All commands fully work!
+- Cleaned up the events package
+##
+
+### [0.5] - 2015-07-10
+## Changed
+- Started with writing a changelog file!
+- storePlayerIP works now, because the query has ";"!
+- Added permissions alias!
+- Added Timezone to getProfile() method.
+- Added CountryCode, for a more professional look.
+- Gave the getProfile output better color look
+- Removed unnecessary debugging.
+- Optimised timing with registering the player.
+- Added error message when arguments are wrong with Coins Command
+- Added /ip command
+- All commands work properly now.
+##

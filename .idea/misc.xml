@@ -38,10 +38,16 @@
       <property name="caretWidth" class="java.lang.Integer" />
     </properties>
   </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/MinigameFramework/pom.xml" />
+        <option value="$PROJECT_DIR$/Bukkit/pom.xml" />
+        <option value="$PROJECT_DIR$/Iceball-BungeeCord/pom.xml" />
+        <option value="$PROJECT_DIR$/Minigame-Framework2/pom.xml" />
       </list>
     </option>
   </component>
@@ -55,7 +61,7 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

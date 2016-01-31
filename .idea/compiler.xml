@@ -18,6 +18,61 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="MinigameAPI" />
+        <module name="MinigameFramework" />
+      </profile>
+      <profile default="false" name="Annotation profile for Iceball (1)" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Iceball (1)" />
+      </profile>
+      <profile default="false" name="Annotation profile for Iceball" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for BungeeCord" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="BungeeCord" />
+      </profile>
+      <profile default="false" name="Annotation profile for MGFW" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="MGFW" />
+      </profile>
+      <profile default="false" name="Annotation profile for Minigame-Framework" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Minigame-Framework" />
+      </profile>
+      <profile default="false" name="Annotation profile for Bukkit" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Bukkit" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Bukkit" target="1.8" />
+      <module name="BungeeCord" target="1.8" />
+      <module name="Iceball" target="1.8" />
+      <module name="Minigame-Framework" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

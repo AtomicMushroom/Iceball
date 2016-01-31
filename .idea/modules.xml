@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bukkit/Bukkit.iml" filepath="$PROJECT_DIR$/Bukkit/Bukkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BungeeCord/BungeeCord.iml" filepath="$PROJECT_DIR$/BungeeCord/BungeeCord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MG-Framework/MG-Framework.iml" filepath="$PROJECT_DIR$/MG-Framework/MG-Framework.iml" />
+    </modules>
+  </component>
+</project>
