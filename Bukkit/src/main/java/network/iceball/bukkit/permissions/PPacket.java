@@ -64,7 +64,7 @@ public class PPacket {
 
             while (rs.next()) {
                 rank = rs.getString("rank");
-                perms = Util.stringToHashMap(rs.getString("old/iceball/network/permissions"));
+                perms = Util.stringToHashMap(rs.getString("permissions"));
                 pPacket = new PPacket(perms, rank, player);
             }
             rs.close();
