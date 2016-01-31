@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07211f56-c36c-46dc-b74f-3351a6b9165e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server-icon.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iceball-BungeeCord/Iceball (1).iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MinigameFramework/Minigame-Framework.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icon.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bukkit/target/Iceball-Bukkit.jar" afterPath="$PROJECT_DIR$/Bukkit/target/Iceball-Bukkit.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/commands/PCommand.class" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/commands/PCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/PPacket.class" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/PPacket.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/group/GData.class" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/group/GData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/player/PData.class" afterPath="$PROJECT_DIR$/Bukkit/target/classes/network/iceball/bukkit/permissions/player/PData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BungeeCord/target/Iceball-BungeeCord.jar" afterPath="$PROJECT_DIR$/BungeeCord/target/Iceball-BungeeCord.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BungeeCord/target/classes/network/iceball_bc/util/Config.class" afterPath="$PROJECT_DIR$/BungeeCord/target/classes/network/iceball_bc/util/Config.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MG-Framework/target/MG-Framework.jar" afterPath="$PROJECT_DIR$/MG-Framework/target/MG-Framework.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/HTTP.java" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/HTTP.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/JSONStringer.java" afterPath="$PROJECT_DIR$/Bukkit/src/main/java/network/iceball/bukkit/util/JSON/JSONStringer.java" />
@@ -52,8 +40,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.020026702">
-                <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.48192772">
+                <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -766,7 +754,7 @@
       <workItem from="1454255247149" duration="116000" />
       <workItem from="1454255375890" duration="1336000" />
       <workItem from="1454258151857" duration="2171000" />
-      <workItem from="1454260629422" duration="401000" />
+      <workItem from="1454260629422" duration="1388000" />
     </task>
     <task id="LOCAL-00001" summary="Now avaiable on GitHub!">
       <created>1454195573248</created>
@@ -792,11 +780,23 @@
       <option name="project" value="LOCAL" />
       <updated>1454260343887</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated readme.">
+      <created>1454261065847</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1454261065847</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated readme.">
+      <created>1454261778672</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1454261778672</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15766000" />
+    <option name="totallyTimeSpent" value="16753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -804,6 +804,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -819,7 +820,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -849,7 +849,8 @@
     <MESSAGE value="Test commits." />
     <MESSAGE value="Cleanup." />
     <MESSAGE value="Fixed a bug that was causing trouble to the permissions core." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed a bug that was causing trouble to the permissions core." />
+    <MESSAGE value="Updated readme." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated readme." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1216,8 +1217,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.020026702">
-            <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="0.48192772">
+            <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
